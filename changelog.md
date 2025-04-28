@@ -1,4 +1,7 @@
 
+**<span style="color:#56adda">1.0.5</span>**
+- Add the ability to set the first relocated subtitle as the default
+
 **<span style="color:#56adda">1.0.4</span>**
 - Update FFmpeg helper
 - Add platform declaration
