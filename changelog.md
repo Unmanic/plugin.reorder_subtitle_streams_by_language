@@ -1,6 +1,12 @@
 
-**<span style="color:#56adda">1.0.5</span>**
+**<span style="color:#56adda">1.0.7</span>**
 - Add the ability to set the first relocated subtitle as the default
+
+**<span style="color:#56adda">1.0.6</span>**
+- fix found_search_string_streams position in custom stream mapping
+
+**<span style="color:#56adda">1.0.5</span>**
+- fix missing __init
 
 **<span style="color:#56adda">1.0.4</span>**
 - Update FFmpeg helper

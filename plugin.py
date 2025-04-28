@@ -100,8 +100,8 @@ class PluginStreamMapper(StreamMapper):
 
         if codec_type == self.stream_type:
             # Process streams of interest
-            self.found_search_string_streams = True
             if self.test_tags_for_search_string(stream_info.get('tags')):
+                self.found_search_string_streams = True
                 disposition = '0'
                 if len(self.search_string_stream_mapping) == 0 and set_as_default:
                     disposition = 'default'
