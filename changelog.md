@@ -1,4 +1,7 @@
 
+**<span style="color:#56adda">1.0.8</span>**
+- Fix stream order test always reporting a reorder when disposition args are mapped (Unmanic/unmanic-plugins#522)
+
 **<span style="color:#56adda">1.0.7</span>**
 - Add the ability to set the first relocated subtitle as the default
 

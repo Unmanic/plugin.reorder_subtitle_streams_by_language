@@ -133,7 +133,9 @@ class PluginStreamMapper(StreamMapper):
             # Test if the mapping is already in the correct order
             counter = 0
             for item in self.search_string_stream_mapping + self.unmatched_stream_mapping:
-                if '-map' in item:
+                # Only check stream specifiers like "0:s:3"; skip "-map",
+                # "-disposition:s:N" and disposition values ("0"/"default")
+                if item.startswith('-') or item.count(':') != 2:
                     continue
                 original_position = item.split(':')[-1]
                 if int(original_position) != int(counter):
